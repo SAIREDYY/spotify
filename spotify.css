@@ -1,0 +1,81 @@
+.toolbar{
+    background-color: dimgrey;
+    height:90px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.search-bar{
+    border-radius: 20px;
+}
+.home-button{
+    border-color: white;
+    margin-top:50px ;
+    align-self: flex-end;
+    background-color: white;
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.top-10-songs-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    align-items: center;
+    padding: 30px;
+}
+.top-10-songs-heading{
+    color: dimgrey;
+    font-weight: bold;
+    justify-content: space-around;
+    align-self: center;
+    font-size: 30px;
+}
+.top-10-songs-button{
+    color: dimgray;
+    background-color: dimgray;
+    color: white;
+}
+.table-container{
+    margin-left: 20px;
+    margin-right:20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+table, th, td {
+  border: 1px solid lightgrey;
+  text-align: center;
+}
+th{
+    background-color: dimgrey;
+    color: white;
+    text-align: center;
+}
+.art-work-image{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.top-10-artists-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    align-items: center;
+    padding: 30px;
+}
+.top-10-artists-heading{
+    color: dimgrey;
+    font-weight: bold;
+    justify-content: space-around;
+    align-self: center;
+    font-size: 30px;
+}
