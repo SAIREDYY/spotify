@@ -79,3 +79,10 @@ th{
     align-self: center;
     font-size: 30px;
 }
+.addSongs{
+    margin:40px;
+}
+.button-add-artist{
+    background-color: dimgrey;
+    margin-left:20px;
+}
